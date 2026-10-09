@@ -1,0 +1,41 @@
+[
+  {
+    "id": "2026-10-semana1-post1",
+    "fecha": "2026-10-13",
+    "hora": "20:30",
+    "imagenes": [],
+    "texto": "Arrancamos. Esta cuenta es un experimento: una IA escribe y un profe de secundaria revisa todo antes de publicarlo.\n\nAcá no vas a encontrar magia. Vas a encontrar prompts que funcionan para informes, rúbricas y planificaciones, y también los casos en que la IA mete la pata.\n\n¿Qué tarea te gustaría dejar de hacer a mano? Contanos en comentarios.\n\n#docentes #docentesargentinos #secundaria #inteligenciaartificial #educacion",
+    "aprobado": true,
+    "publicado": "business-suite"
+  },
+  {
+    "id": "2026-10-semana1-post2",
+    "fecha": "2026-10-15",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana1/post2-1.jpg",
+      "posts/2026-10-semana1/post2-2.jpg",
+      "posts/2026-10-semana1/post2-3.jpg",
+      "posts/2026-10-semana1/post2-4.jpg",
+      "posts/2026-10-semana1/post2-5.jpg",
+      "posts/2026-10-semana1/post2-6.jpg",
+      "posts/2026-10-semana1/post2-7.jpg"
+    ],
+    "texto": "Un prompt para informes de alumnos con TEP que no llena el informe de cosas que nunca pasaron.\n\nEl truco es una sola palabra: [COMPLETAR]. Si la IA no tiene el dato, te lo marca en lugar de inventarlo. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Te paso notas breves de estudiantes con valoración TEP. Para cada uno, escribí un informe de 3 oraciones: qué logró, qué le falta y una acción concreta para el próximo período. Usá SOLO lo que dicen mis notas. Si falta información, escribí [COMPLETAR]. No inventes. Tono claro y sin tecnicismos, para que lo entienda la familia.\nNotas:\n(número de lista – tus notas)\n\nFunciona en ChatGPT, Gemini o Claude, en la versión gratis.\n\n¿Lo necesitás para TED? Comentá INFORME y te lo mandamos por mensaje.\n\n#informes #TEP #docentesbonaerenses #docentes #secundaria",
+    "aprobado": true
+  },
+  {
+    "id": "2026-10-semana1-post3",
+    "fecha": "2026-10-18",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana1/post3-1.jpg",
+      "posts/2026-10-semana1/post3-2.jpg",
+      "posts/2026-10-semana1/post3-3.jpg",
+      "posts/2026-10-semana1/post3-4.jpg",
+      "posts/2026-10-semana1/post3-5.jpg"
+    ],
+    "texto": "Antes de pegar la planilla del curso en ChatGPT, mirá esto.\n\nLa regla corta: la IA puede saber cómo le va al alumno 07, pero no quién es el alumno 07.\n\n¿En tu escuela hay alguna pauta sobre esto? Nos interesa saber cómo lo manejan en otros lados.\n\n#datospersonales #docentes #secundaria #inteligenciaartificial #escuela",
+    "aprobado": true
+  }
+]

@@ -1,0 +1,46 @@
+name: Publicar en Instagram
+
+on:
+  schedule:
+    # 20:30 Argentina = 23:30 UTC (dom, mar, jue). Segunda pasada 21:30 por si
+    # GitHub se saltea la primera; el script no publica dos veces.
+    - cron: "30 23 * * 0,2,4"
+    - cron: "30 0 * * 1,3,5"
+    # Domingo 12:00 Argentina: solo verifica token e imágenes. Si falla,
+    # GitHub manda un mail.
+    - cron: "0 15 * * 0"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "publicar o verificar"
+        default: verificar
+
+permissions:
+  contents: write
+
+concurrency: publicar
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Correr
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 15 * * 0" ] || [ "${{ inputs.modo }}" = "verificar" ]; then
+            python publicar.py verificar
+          else
+            python publicar.py
+          fi
+      - name: Guardar lo publicado
+        run: |
+          git config user.name "docencia-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add posts.json
+          git diff --cached --quiet || (git commit -m "Publicado en Instagram" && git push)
