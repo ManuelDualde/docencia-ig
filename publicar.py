@@ -3,6 +3,8 @@
 Uso:
   python publicar.py            publica lo que corresponde ahora
   python publicar.py verificar  solo prueba el token y las imágenes, no publica
+  python publicar.py metricas   muestra seguidores y, por post, alcance,
+                                guardados y compartidos (no publica)
 
 Necesita las variables IG_TOKEN y REPO (usuario/repo, para armar los links
 públicos de las imágenes). Lo corre GitHub Actions; ver .github/workflows.
@@ -89,12 +91,39 @@ def verificar(posts):
         sys.exit(1)
 
 
+def metricas(posts):
+    yo = llamar("GET", "me", fields="username,followers_count,media_count")
+    print(f"@{yo['username']}: {yo.get('followers_count', '?')} seguidores, "
+          f"{yo.get('media_count', '?')} posts")
+    # Prueba el permiso de estadísticas antes de recorrer los posts.
+    try:
+        llamar("GET", "me/insights", metric="reach", period="day", metric_type="total_value")
+    except SystemExit as e:
+        print(e)
+        sys.exit("Falta el permiso instagram_business_manage_insights en el token. "
+                 "Hay que tildarlo al regenerarlo en developers.facebook.com.")
+    nombres = {p["publicado"]: p["id"] for p in posts if p.get("publicado")}
+    medios = llamar("GET", "me/media", fields="id,caption,timestamp", limit=50)["data"]
+    print("fecha | post | alcance | guardados | compartidos | me gusta | comentarios")
+    for m in reversed(medios):
+        datos = llamar("GET", f"{m['id']}/insights", metric="reach,saved,shares,likes,comments")
+        v = {d["name"]: d["values"][0]["value"] for d in datos["data"]}
+        nombre = nombres.get(m["id"]) or (m.get("caption") or "").split("\n")[0][:50]
+        print(f"{m['timestamp'][:10]} | {nombre} | {v.get('reach')} | {v.get('saved')} | "
+              f"{v.get('shares')} | {v.get('likes')} | {v.get('comments')}")
+    if not medios:
+        print("Todavía no hay posts publicados.")
+
+
 def main():
     with open("posts.json", encoding="utf-8") as f:
         posts = json.load(f)
 
     if sys.argv[1:] == ["verificar"]:
         verificar(posts)
+        return
+    if sys.argv[1:] == ["metricas"]:
+        metricas(posts)
         return
 
     ahora = datetime.now(ARG)

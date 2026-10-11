@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "publicar o verificar"
+        description: "publicar, verificar o metricas"
         default: verificar
 
 permissions:
@@ -35,6 +35,8 @@ jobs:
         run: |
           if [ "${{ github.event.schedule }}" = "0 15 * * 0" ] || [ "${{ inputs.modo }}" = "verificar" ]; then
             python publicar.py verificar
+          elif [ "${{ inputs.modo }}" = "metricas" ]; then
+            python publicar.py metricas
           else
             python publicar.py
           fi
