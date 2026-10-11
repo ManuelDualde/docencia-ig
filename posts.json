@@ -37,5 +37,51 @@
     ],
     "texto": "Antes de pegar la planilla del curso en ChatGPT, mirá esto.\n\nLa regla corta: la IA puede saber cómo le va al alumno 07, pero no quién es el alumno 07.\n\n¿En tu escuela hay alguna pauta sobre esto? Nos interesa saber cómo lo manejan en otros lados.\n\n#datospersonales #docentes #secundaria #inteligenciaartificial #escuela",
     "aprobado": true
+  },
+  {
+    "id": "2026-10-semana2-post1",
+    "fecha": "2026-10-20",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana2/post1-1.jpg",
+      "posts/2026-10-semana2/post1-2.jpg",
+      "posts/2026-10-semana2/post1-3.jpg",
+      "posts/2026-10-semana2/post1-4.jpg",
+      "posts/2026-10-semana2/post1-5.jpg",
+      "posts/2026-10-semana2/post1-6.jpg",
+      "posts/2026-10-semana2/post1-7.jpg"
+    ],
+    "texto": "¿Escribiste \"estudiar más\" en 30 pruebas? El alumno no sabe qué estudiar. Vos sí: lo anotaste al corregir.\n\nEste prompt convierte tus notas al margen en devoluciones cortas, distintas y con algo concreto para el recuperatorio. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Corregí una prueba de [TEMA]. Te paso los criterios y, por cada estudiante, el número de lista y lo que anoté al corregir. Para cada uno, escribí una devolución de 2 oraciones hablándole al estudiante: algo que hizo bien y qué tiene que revisar para el recuperatorio, nombrando un ejercicio o tema concreto. Usá SOLO mis notas. Si no anoté nada positivo, escribí [COMPLETAR]. No repitas frases entre devoluciones. Nada de \"excelente trabajo\" ni \"estudiar más\".\nCriterios: (los de tu prueba)\nNotas:\n(número de lista – lo que anotaste)\n\nProbado en ChatGPT, en la versión gratis.\n\n¿Lo querés para trabajos prácticos? Comentá DEVOLUCION y te lo mandamos por mensaje.\n\n#docentes #secundaria #evaluacion #devoluciones #correccion",
+    "aprobado": true
+  },
+  {
+    "id": "2026-10-semana2-post2",
+    "fecha": "2026-10-22",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana2/post2-1.jpg",
+      "posts/2026-10-semana2/post2-2.jpg",
+      "posts/2026-10-semana2/post2-3.jpg",
+      "posts/2026-10-semana2/post2-4.jpg",
+      "posts/2026-10-semana2/post2-5.jpg",
+      "posts/2026-10-semana2/post2-6.jpg"
+    ],
+    "texto": "¿Le preguntaste a ChatGPT qué dice la normativa? Puede contestarte con un número de resolución que suena oficial y no existe.\n\nNo lo hace de mala: arma la respuesta más probable. Hay una frase que lo obliga a mostrar de dónde saca cada norma. Está en la lámina 5.\n\nCopiala y agregala al final de tu pregunta:\n\nSi no estás seguro de un número de resolución, artículo o fecha, decímelo. No inventes números. Para cada norma que cites, pasame el enlace a la fuente oficial.\n\nY el enlace abrilo vos.\n\n¿Te pasó alguna vez? Contalo en comentarios.\n\n#docentes #secundaria #docentesbonaerenses #normativa #chatgpt",
+    "aprobado": true
+  },
+  {
+    "id": "2026-10-semana2-post3",
+    "fecha": "2026-10-25",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana2/post3-1.jpg",
+      "posts/2026-10-semana2/post3-2.jpg",
+      "posts/2026-10-semana2/post3-3.jpg",
+      "posts/2026-10-semana2/post3-4.jpg",
+      "posts/2026-10-semana2/post3-5.jpg",
+      "posts/2026-10-semana2/post3-6.jpg"
+    ],
+    "texto": "¿Pasaste un trabajo por un detector de IA? El porcentaje que te da no es una prueba.\n\nLos detectores se equivocan para los dos lados: marcan como IA textos que escribió una persona y dejan pasar textos de IA retocados. OpenAI, la empresa de ChatGPT, retiró su propio detector en 2023 porque acertaba poco.\n\nNuestra opinión: tres minutos de charla con el alumno sobre su trabajo dicen más que cualquier porcentaje.\n\n¿En tu escuela usan detectores? ¿Qué hacen cuando sospechan?\n\n#docentes #secundaria #inteligenciaartificial #evaluacion #chatgpt",
+    "aprobado": true
   }
 ]
