@@ -22,7 +22,9 @@
       "posts/2026-10-semana1/post2-7.jpg"
     ],
     "texto": "Un prompt para informes de alumnos con TEP que no llena el informe de cosas que nunca pasaron.\n\nEl truco es una sola palabra: [COMPLETAR]. Si la IA no tiene el dato, te lo marca en lugar de inventarlo. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Te paso notas breves de estudiantes con valoración TEP. Para cada uno, escribí un informe de 3 oraciones: qué logró, qué le falta y una acción concreta para el próximo período. Usá SOLO lo que dicen mis notas. Si falta información, escribí [COMPLETAR]. No inventes. Tono claro y sin tecnicismos, para que lo entienda la familia.\nNotas:\n(número de lista – tus notas)\n\nFunciona en ChatGPT, Gemini o Claude, en la versión gratis.\n\n¿Lo necesitás para TED? Comentá INFORME y te lo mandamos por mensaje.\n\n#informes #TEP #docentesbonaerenses #docentes #secundaria",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "18141827407617873",
+    "publicado_en": "2026-10-15T21:34-03:00"
   },
   {
     "id": "2026-10-semana1-post3",
