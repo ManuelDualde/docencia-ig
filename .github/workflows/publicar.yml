@@ -2,10 +2,11 @@ name: Publicar en Instagram
 
 on:
   schedule:
-    # 20:30 Argentina = 23:30 UTC (dom, mar, jue). Segunda pasada 21:30 por si
-    # GitHub se saltea la primera; el script no publica dos veces.
+    # 20:30 Argentina = 23:30 UTC (dom, mar, jue). GitHub arranca los programados
+    # con horas de atraso o se los saltea, así que hay más pasadas: 21:30, 23:30,
+    # 02:30 y 05:30 (hora Argentina). El script no publica dos veces.
     - cron: "30 23 * * 0,2,4"
-    - cron: "30 0 * * 1,3,5"
+    - cron: "30 0,2,5,8 * * 1,3,5"
     # Domingo 12:00 Argentina: solo verifica token e imágenes. Si falla,
     # GitHub manda un mail.
     - cron: "0 15 * * 0"

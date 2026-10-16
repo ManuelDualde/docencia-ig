@@ -22,7 +22,7 @@ API = "https://graph.instagram.com/v23.0"
 ARG = timezone(timedelta(hours=-3))
 # Un post atrasado se publica solo dentro de esta ventana. Si se pasa (Actions
 # caído, token vencido), queda pendiente para que Manu decida.
-VENTANA = timedelta(hours=6)
+VENTANA = timedelta(hours=12)
 
 TOKEN = os.environ["IG_TOKEN"].strip()
 REPO = os.environ["REPO"]
