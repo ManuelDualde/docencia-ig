@@ -56,7 +56,9 @@
       "posts/2026-10-semana2/post1-7.jpg"
     ],
     "texto": "¿Escribiste \"estudiar más\" en 30 pruebas? El alumno no sabe qué estudiar. Vos sí: lo anotaste al corregir.\n\nEste prompt convierte tus notas al margen en devoluciones cortas, distintas y con algo concreto para el recuperatorio. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Corregí una prueba de [TEMA]. Te paso los criterios y, por cada estudiante, el número de lista y lo que anoté al corregir. Para cada uno, escribí una devolución de 2 oraciones hablándole al estudiante: algo que hizo bien y qué tiene que revisar para el recuperatorio, nombrando un ejercicio o tema concreto. Usá SOLO mis notas. Si no anoté nada positivo, escribí [COMPLETAR]. No repitas frases entre devoluciones. Nada de \"excelente trabajo\" ni \"estudiar más\".\nCriterios: (los de tu prueba)\nNotas:\n(número de lista – lo que anotaste)\n\nProbado en ChatGPT, en la versión gratis.\n\n¿Lo querés para trabajos prácticos? Comentá DEVOLUCION y te lo mandamos por mensaje.\n\n#docentes #secundaria #evaluacion #devoluciones #correccion",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "18089919722261970",
+    "publicado_en": "2026-10-20T22:45-03:00"
   },
   {
     "id": "2026-10-semana2-post2",
