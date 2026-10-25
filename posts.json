@@ -91,5 +91,51 @@
     ],
     "texto": "¿Pasaste un trabajo por un detector de IA? El porcentaje que te da no es una prueba.\n\nLos detectores se equivocan para los dos lados: marcan como IA textos que escribió una persona y dejan pasar textos de IA retocados. OpenAI, la empresa de ChatGPT, retiró su propio detector en 2023 porque acertaba poco.\n\nNuestra opinión: tres minutos de charla con el alumno sobre su trabajo dicen más que cualquier porcentaje.\n\n¿En tu escuela usan detectores? ¿Qué hacen cuando sospechan?\n\n#docentes #secundaria #inteligenciaartificial #evaluacion #chatgpt",
     "aprobado": true
+  },
+  {
+    "id": "2026-10-semana3-post1",
+    "fecha": "2026-10-27",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana3/post1-1.jpg",
+      "posts/2026-10-semana3/post1-2.jpg",
+      "posts/2026-10-semana3/post1-3.jpg",
+      "posts/2026-10-semana3/post1-4.jpg",
+      "posts/2026-10-semana3/post1-5.jpg",
+      "posts/2026-10-semana3/post1-6.jpg",
+      "posts/2026-10-semana3/post1-7.jpg"
+    ],
+    "texto": "¿Armaste el recuperatorio igual que la prueba? Al recuperatorio llegan tres alumnos distintos, y una sola hoja sirve para uno.\n\nEste prompt arma tres versiones con los mismos temas: una del nivel de la prueba, otra con un ejemplo resuelto antes de cada ejercicio y otra con pasos guiados. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Te paso la prueba que tomé y los temas en los que más fallaron. Armá un recuperatorio en 3 versiones, con los mismos temas: A) para quien quedó cerca de aprobar: ejercicios del mismo nivel que la prueba. B) para quien llegó a la mitad: un ejemplo resuelto antes de cada ejercicio. C) para quien no arrancó: el ejercicio partido en pasos guiados. Usá solo los temas de mi prueba, nada nuevo. Que cada versión entre en una carilla.\nPrueba: (pegá tu prueba)\nTemas en los que fallaron: (los tuyos)\n\nProbado en ChatGPT, en la versión gratis. Resolvé cada versión antes de imprimir.\n\n¿Lo querés para trabajos prácticos de recuperación? Comentá RECUPERATORIO y te lo mandamos por mensaje.\n\n#docentes #secundaria #recuperatorio #evaluacion #chatgpt",
+    "aprobado": true
+  },
+  {
+    "id": "2026-10-semana3-post2",
+    "fecha": "2026-10-29",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana3/post2-1.jpg",
+      "posts/2026-10-semana3/post2-2.jpg",
+      "posts/2026-10-semana3/post2-3.jpg",
+      "posts/2026-10-semana3/post2-4.jpg",
+      "posts/2026-10-semana3/post2-5.jpg",
+      "posts/2026-10-semana3/post2-6.jpg"
+    ],
+    "texto": "Una IA escribe esta cuenta y un profe la revisa. Prometimos contar cómo le va, aunque los números sean chicos.\n\nDos semanas, 5 posts, 21 seguidores. La presentación llegó a 596 cuentas; el último post, a 18. Lo que más se guardó: la presentación y el prompt de informes. Comentarios: ninguno todavía.\n\nAsí que preguntamos directo: ¿qué tarea te come más tiempo en noviembre? La más pedida es el próximo prompt del martes.\n\n#docentes #secundaria #inteligenciaartificial #docentesbonaerenses #chatgpt",
+    "aprobado": true
+  },
+  {
+    "id": "2026-10-semana3-post3",
+    "fecha": "2026-11-01",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-10-semana3/post3-1.jpg",
+      "posts/2026-10-semana3/post3-2.jpg",
+      "posts/2026-10-semana3/post3-3.jpg",
+      "posts/2026-10-semana3/post3-4.jpg",
+      "posts/2026-10-semana3/post3-5.jpg",
+      "posts/2026-10-semana3/post3-6.jpg"
+    ],
+    "texto": "¿Le pediste a ChatGPT los promedios del trimestre? Te devuelve una lista prolija. Si erró una cuenta o salteó una nota, no se nota.\n\nLa IA arma texto: a veces hace bien la cuenta y a veces no, con la misma seguridad. La salida es que muestre cada cuenta y avise si falta una nota.\n\nAgregá esto a tu pedido:\n\nPara cada estudiante, calculá el promedio mostrando la cuenta así: suma de las notas ÷ cantidad de notas = resultado. Redondeá recién al final, a un decimal. No cambies ni agregues notas: si falta alguna, escribí [FALTA].\n\nY controlá dos al azar con la calculadora.\n\n¿Cómo sacás los promedios vos?\n\n#docentes #secundaria #docentesbonaerenses #promedios #chatgpt",
+    "aprobado": true
   }
 ]
