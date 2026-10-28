@@ -108,7 +108,9 @@
       "posts/2026-10-semana3/post1-7.jpg"
     ],
     "texto": "¿Armaste el recuperatorio igual que la prueba? Al recuperatorio llegan tres alumnos distintos, y una sola hoja sirve para uno.\n\nEste prompt arma tres versiones con los mismos temas: una del nivel de la prueba, otra con un ejemplo resuelto antes de cada ejercicio y otra con pasos guiados. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Te paso la prueba que tomé y los temas en los que más fallaron. Armá un recuperatorio en 3 versiones, con los mismos temas: A) para quien quedó cerca de aprobar: ejercicios del mismo nivel que la prueba. B) para quien llegó a la mitad: un ejemplo resuelto antes de cada ejercicio. C) para quien no arrancó: el ejercicio partido en pasos guiados. Usá solo los temas de mi prueba, nada nuevo. Que cada versión entre en una carilla.\nPrueba: (pegá tu prueba)\nTemas en los que fallaron: (los tuyos)\n\nProbado en ChatGPT, en la versión gratis. Resolvé cada versión antes de imprimir.\n\n¿Lo querés para trabajos prácticos de recuperación? Comentá RECUPERATORIO y te lo mandamos por mensaje.\n\n#docentes #secundaria #recuperatorio #evaluacion #chatgpt",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "17934125613409354",
+    "publicado_en": "2026-10-27T23:27-03:00"
   },
   {
     "id": "2026-10-semana3-post2",
