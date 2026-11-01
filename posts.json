@@ -143,5 +143,52 @@
     ],
     "texto": "¿Le pediste a ChatGPT los promedios del trimestre? Te devuelve una lista prolija. Si erró una cuenta o salteó una nota, no se nota.\n\nLa IA arma texto: a veces hace bien la cuenta y a veces no, con la misma seguridad. La salida es que muestre cada cuenta y avise si falta una nota.\n\nAgregá esto a tu pedido:\n\nPara cada estudiante, calculá el promedio mostrando la cuenta así: suma de las notas ÷ cantidad de notas = resultado. Redondeá recién al final, a un decimal. No cambies ni agregues notas: si falta alguna, escribí [FALTA].\n\nY controlá dos al azar con la calculadora.\n\n¿Cómo sacás los promedios vos?\n\n#docentes #secundaria #docentesbonaerenses #promedios #chatgpt",
     "aprobado": true
+  },
+  {
+    "id": "2026-11-semana4-post1",
+    "fecha": "2026-11-03",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-11-semana4/post1-1.jpg",
+      "posts/2026-11-semana4/post1-2.jpg",
+      "posts/2026-11-semana4/post1-3.jpg",
+      "posts/2026-11-semana4/post1-4.jpg",
+      "posts/2026-11-semana4/post1-5.jpg",
+      "posts/2026-11-semana4/post1-6.jpg",
+      "posts/2026-11-semana4/post1-7.jpg"
+    ],
+    "texto": "¿Vas a planificar la intensificación alumno por alumno? Lo pidieron en comentarios, así que acá va.\n\nCada uno debe temas distintos. Este prompt los ordena por tema: quiénes deben cada uno, en qué orden darlos y a qué clases va cada alumno. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Te paso, por número de lista, los temas que cada estudiante tiene que intensificar. Tengo [N] clases. Armá: 1) Una tabla por tema: qué estudiantes lo deben y cuántos son. 2) Un orden de los temas para las clases, empezando por el que deben más. 3) Para cada estudiante, un plan corto: qué temas, en qué clases y una primera actividad. Usá solo los temas de mi lista. Si falta un dato, escribí [COMPLETAR].\nTemas por estudiante: (03: tema, tema. 07: tema…)\n\nProbado en ChatGPT, en la versión gratis. Las actividades que propone son genéricas: cambialas por las tuyas.\n\n¿Lo querés para avisarle a cada familia qué clases le tocan? Comentá INTENSIFICA y te lo mandamos por mensaje.\n\n#docentes #secundaria #docentesbonaerenses #intensificacion #chatgpt",
+    "aprobado": true
+  },
+  {
+    "id": "2026-11-semana4-post2",
+    "fecha": "2026-11-05",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-11-semana4/post2-1.jpg",
+      "posts/2026-11-semana4/post2-2.jpg",
+      "posts/2026-11-semana4/post2-3.jpg",
+      "posts/2026-11-semana4/post2-4.jpg",
+      "posts/2026-11-semana4/post2-5.jpg",
+      "posts/2026-11-semana4/post2-6.jpg",
+      "posts/2026-11-semana4/post2-7.jpg"
+    ],
+    "texto": "¿Le pediste a la IA que ponga la nota? Te devuelve un 6, con argumentos. Suena bien, pero no sabe qué trabajaste en clase ni qué acordaste con el curso.\n\nLo que sí le podés pedir: qué cumple de cada criterio, qué le falta y un borrador de devolución. La nota y si aprueba los decidís vos.\n\nAgregá esto a tu pedido, después de pegar tus criterios y la respuesta:\n\nPara cada criterio, decime qué cumple y qué le falta, citando su respuesta. Escribí un borrador de devolución de 3 renglones, en segunda persona. No pongas nota ni digas si aprueba: eso lo decido yo.\n\n¿Qué parte de la corrección le darías a la IA y cuál no?\n\n#docentes #secundaria #evaluacion #correccion #chatgpt",
+    "aprobado": true
+  },
+  {
+    "id": "2026-11-semana4-post3",
+    "fecha": "2026-11-08",
+    "hora": "20:30",
+    "imagenes": [
+      "posts/2026-11-semana4/post3-1.jpg",
+      "posts/2026-11-semana4/post3-2.jpg",
+      "posts/2026-11-semana4/post3-3.jpg",
+      "posts/2026-11-semana4/post3-4.jpg",
+      "posts/2026-11-semana4/post3-5.jpg",
+      "posts/2026-11-semana4/post3-6.jpg"
+    ],
+    "texto": "¿Le pediste la rúbrica a la IA? Leela entera.\n\nLa probamos con un pedido común, sin criterios: rúbrica para la intensificación de Historia, Revolución de Mayo. Devolvió 8 criterios, 8 condiciones y una defensa oral obligatoria para aprobar. Nadie se la pidió.\n\nSi no le das tus criterios, completa con los que suelen aparecer, y los escribe como si fueran tuyos. La salida es pasárselos y prohibirle agregar:\n\nUsá solo estos criterios, que son los míos: [...]. Para aprobar: [...]. No agregues criterios, requisitos ni instancias que yo no puse. Si te falta algo para armar un nivel, escribí [COMPLETAR].\n\n¿Te pasó que la IA agregó algo que no pediste?\n\n#docentes #secundaria #docentesbonaerenses #rubricas #chatgpt",
+    "aprobado": true
   }
 ]
