@@ -142,7 +142,9 @@
       "posts/2026-10-semana3/post3-6.jpg"
     ],
     "texto": "¿Le pediste a ChatGPT los promedios del trimestre? Te devuelve una lista prolija. Si erró una cuenta o salteó una nota, no se nota.\n\nLa IA arma texto: a veces hace bien la cuenta y a veces no, con la misma seguridad. La salida es que muestre cada cuenta y avise si falta una nota.\n\nAgregá esto a tu pedido:\n\nPara cada estudiante, calculá el promedio mostrando la cuenta así: suma de las notas ÷ cantidad de notas = resultado. Redondeá recién al final, a un decimal. No cambies ni agregues notas: si falta alguna, escribí [FALTA].\n\nY controlá dos al azar con la calculadora.\n\n¿Cómo sacás los promedios vos?\n\n#docentes #secundaria #docentesbonaerenses #promedios #chatgpt",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "18159550630467309",
+    "publicado_en": "2026-11-02T03:33-03:00"
   },
   {
     "id": "2026-11-semana4-post1",
