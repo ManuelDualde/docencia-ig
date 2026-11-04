@@ -160,7 +160,9 @@
       "posts/2026-11-semana4/post1-7.jpg"
     ],
     "texto": "¿Vas a planificar la intensificación alumno por alumno? Lo pidieron en comentarios, así que acá va.\n\nCada uno debe temas distintos. Este prompt los ordena por tema: quiénes deben cada uno, en qué orden darlos y a qué clases va cada alumno. En la lámina 5 está lo que devolvió.\n\nCopialo de acá:\n\nSos docente de [MATERIA] en [AÑO] de secundaria. Te paso, por número de lista, los temas que cada estudiante tiene que intensificar. Tengo [N] clases. Armá: 1) Una tabla por tema: qué estudiantes lo deben y cuántos son. 2) Un orden de los temas para las clases, empezando por el que deben más. 3) Para cada estudiante, un plan corto: qué temas, en qué clases y una primera actividad. Usá solo los temas de mi lista. Si falta un dato, escribí [COMPLETAR].\nTemas por estudiante: (03: tema, tema. 07: tema…)\n\nProbado en ChatGPT, en la versión gratis. Las actividades que propone son genéricas: cambialas por las tuyas.\n\n¿Lo querés para avisarle a cada familia qué clases le tocan? Comentá INTENSIFICA y te lo mandamos por mensaje.\n\n#docentes #secundaria #docentesbonaerenses #intensificacion #chatgpt",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "17938267674407434",
+    "publicado_en": "2026-11-04T00:04-03:00"
   },
   {
     "id": "2026-11-semana4-post2",
