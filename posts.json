@@ -178,7 +178,9 @@
       "posts/2026-11-semana4/post2-7.jpg"
     ],
     "texto": "¿Le pediste a la IA que ponga la nota? Te devuelve un 6, con argumentos. Suena bien, pero no sabe qué trabajaste en clase ni qué acordaste con el curso.\n\nLo que sí le podés pedir: qué cumple de cada criterio, qué le falta y un borrador de devolución. La nota y si aprueba los decidís vos.\n\nAgregá esto a tu pedido, después de pegar tus criterios y la respuesta:\n\nPara cada criterio, decime qué cumple y qué le falta, citando su respuesta. Escribí un borrador de devolución de 3 renglones, en segunda persona. No pongas nota ni digas si aprueba: eso lo decido yo.\n\n¿Qué parte de la corrección le darías a la IA y cuál no?\n\n#docentes #secundaria #evaluacion #correccion #chatgpt",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "18170086603471647",
+    "publicado_en": "2026-11-06T00:30-03:00"
   },
   {
     "id": "2026-11-semana4-post3",
