@@ -195,6 +195,8 @@
       "posts/2026-11-semana4/post3-6.jpg"
     ],
     "texto": "¿Le pediste la rúbrica a la IA? Leela entera.\n\nLa probamos con un pedido común, sin criterios: rúbrica para la intensificación de Historia, Revolución de Mayo. Devolvió 8 criterios, 8 condiciones y una defensa oral obligatoria para aprobar. Nadie se la pidió.\n\nSi no le das tus criterios, completa con los que suelen aparecer, y los escribe como si fueran tuyos. La salida es pasárselos y prohibirle agregar:\n\nUsá solo estos criterios, que son los míos: [...]. Para aprobar: [...]. No agregues criterios, requisitos ni instancias que yo no puse. Si te falta algo para armar un nivel, escribí [COMPLETAR].\n\n¿Te pasó que la IA agregó algo que no pediste?\n\n#docentes #secundaria #docentesbonaerenses #rubricas #chatgpt",
-    "aprobado": true
+    "aprobado": true,
+    "publicado": "18221322385348979",
+    "publicado_en": "2026-11-08T23:48-03:00"
   }
 ]
